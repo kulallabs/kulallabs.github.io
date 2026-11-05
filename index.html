@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kulal Labs – AI-Powered Apps, Made in India</title>
+  <meta name="description" content="Kulal Labs is an independent app studio from India, building AI-powered mobile apps that simplify everyday life.">
+  <style>
+    :root {
+      --green-dark: #06302e;
+      --green: #0f5c53;
+      --teal: #17a08c;
+      --gold: #e0b04c;
+      --mint: #edf6f3;
+      --text: #1d2b2a;
+      --muted: #566664;
+      --border: #dce8e4;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: #fff;
+    }
+    a { color: var(--green); }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+    /* Hero */
+    .hero {
+      color: #fff;
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+      padding: 40px 0 80px;
+    }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 64px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-size: 1.25rem; font-weight: 700; }
+    .brand svg { width: 44px; height: 44px; }
+    nav .links a { color: #fff; text-decoration: none; margin-left: 20px; }
+    nav .links a:hover { color: var(--gold); }
+    .hero h1 { margin: 0 0 20px; max-width: 720px; font-size: clamp(2.2rem, 6vw, 3.5rem); line-height: 1.15; }
+    .hero h1 span { color: var(--gold); }
+    .hero p { margin: 0 0 28px; max-width: 620px; font-size: 1.15rem; color: #d5e6e2; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 999px;
+      font-weight: 600;
+    }
+    .tricolour { display: inline-block; width: 8px; height: 22px; border-radius: 2px; background: linear-gradient(#ff9933 33%, #fff 33% 66%, #138808 66%); }
+
+    /* Sections */
+    section { padding: 64px 0; }
+    section.tint { background: var(--mint); }
+    h2 { margin: 0 0 12px; font-size: 1.9rem; color: var(--green-dark); }
+    .lead { margin: 0 0 32px; max-width: 700px; font-size: 1.1rem; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { padding: 24px; background: #fff; border: 1px solid var(--border); border-radius: 14px; }
+    .card h3 { margin: 0 0 8px; color: var(--green-dark); font-size: 1.1rem; }
+    .card p { margin: 0; color: var(--muted); }
+
+    /* Apps */
+    .app { max-width: 640px; padding: 28px; background: #fff; border: 1px solid var(--border); border-radius: 14px; }
+    .app h3 { margin: 0 0 8px; font-size: 1.4rem; color: var(--green-dark); }
+    .app p { color: var(--muted); }
+    .tag { display: inline-block; margin-bottom: 12px; padding: 2px 12px; border-radius: 999px; background: #fbf1da; color: #7a5a12; font-size: 0.85rem; font-weight: 600; }
+    .app-links a { margin-right: 18px; font-weight: 600; }
+
+    footer { padding: 28px 0; color: #d5e6e2; background: var(--green-dark); font-size: 0.95rem; }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="wrap">
+      <nav>
+        <div class="brand">
+          <svg viewBox="0 0 120 120" role="img" aria-label="Kulal Labs logo">
+            <polygon points="60,6 107,33 107,87 60,114 13,87 13,33" fill="none" stroke="#17a08c" stroke-width="7" stroke-linejoin="round"/>
+            <rect x="34" y="34" width="12" height="52" rx="2" fill="#fff"/>
+            <polygon points="46,57 68,34 82,34 58,60 82,86 68,86 46,63" fill="#fff"/>
+            <g fill="none" stroke="#fff" stroke-width="3">
+              <path d="M74 48H89M64 60H89M74 72H89"/>
+              <circle cx="93" cy="48" r="4"/>
+              <circle cx="93" cy="60" r="4"/>
+              <circle cx="93" cy="72" r="4"/>
+            </g>
+          </svg>
+          Kulal Labs
+        </div>
+        <div class="links">
+          <a href="#apps">Apps</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <h1>Building <span>AI-powered</span> apps that simplify everyday life.</h1>
+      <p>An independent app studio from India, creating simple and useful mobile apps for real people and real needs.</p>
+      <div class="badge"><span class="tricolour"></span> Proudly Made in India</div>
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <h2>About Kulal Labs</h2>
+        <p class="lead">Kulal Labs builds intelligent, easy-to-use mobile apps that solve real problems. Every app is designed and developed in India, with simplicity and privacy in mind.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>User First</h3>
+            <p>Designed for real people and the problems they face every day.</p>
+          </div>
+          <div class="card">
+            <h3>Smart by Design</h3>
+            <p>AI is used where it saves you time and effort, not just for show.</p>
+          </div>
+          <div class="card">
+            <h3>Respect for Privacy</h3>
+            <p>Each app has its own privacy policy explaining what data it uses and why.</p>
+          </div>
+          <div class="card">
+            <h3>Made in India</h3>
+            <p>Built in India, with Indian users and everyday needs in mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apps" class="tint">
+      <div class="wrap">
+        <h2>Our Apps</h2>
+        <p class="lead">A growing family of apps across home, finance and productivity.</p>
+        <div class="app">
+          <span class="tag">Coming soon</span>
+          <h3>GrihaMitra</h3>
+          <p>Your companion for the home-buying journey, from evaluating a property and checking legal steps to getting a loan, registering and moving in.</p>
+          <p class="app-links">
+            <a href="grihamitra/">Learn more</a>
+            <a href="grihamitra/privacy.html">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>Get in Touch</h2>
+        <p class="lead">For support, feedback or partnership enquiries, email <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>&copy; 2026 Kulal Labs. Made in India.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
